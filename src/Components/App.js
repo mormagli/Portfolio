@@ -10,18 +10,27 @@ class App extends Component {
       <div className="app">
         <Header/>
         <p className='blurb'>
-          Blah Blah Blah Blah Blah Blah Blah, Blah Blah Blah Blah Blah Blah Blah. Blah Blah Blah Blah Blah Blah Blah
+        I'm a software developer passionate about building and analyzing complex systems. Whether it's web apps (you can find some things I've built below), cultural logics (I'm a PhD candidate in Anthropology), or game rules (I do hobbyist boardgame design), I'm driven by figuring out how things fit together. 
         </p>
 
         <Card
           title='Match 3++'
-          description='A match-3 style game wirtten in react-redux with popmotion-flux animations. Match 3 blocks to clear or more to upgrade... '
+          description= "I wrote a match-3 game with 2048-style progression. It's written in react-redux with popmotion-flux for animations. "
           imageSource={scr1}
           github='https://github.com/mormagli/match-3-client'
           deploy='https://match-three-client.herokuapp.com/'
           cardAlign='left'
         />
     
+
+        <Card
+          title='Match 3++'
+          description= "I wrote a match-3 game with 2048-style progression. It's written in react-redux with popmotion-flux for animations. "
+          imageSource={scr1}
+          github='https://github.com/mormagli/match-3-client'
+          deploy='https://match-three-client.herokuapp.com/'
+          cardAlign='right'
+        />
       </div>
     );
   }

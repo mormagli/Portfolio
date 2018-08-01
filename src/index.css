@@ -2,7 +2,7 @@
 
 
 body {
-    background-color: #3FB094;
+    background-color: #083954;
     margin: 0%;
     
 }
@@ -13,17 +13,43 @@ body {
     top: 0;
     right: 0;
     width: 100%;
-    background-color: #87244C;
-    color: #F5F2C4;
-    text-shadow:#30162B 2px 2px;
+    background-color: #CF3C46;
+    color: black;
+    /* text-shadow:#083954 2px 2px; */
     text-align: right;
     padding: 2%;
+    z-index: 1;
     
 }
 
+.top-bar {
+    position: relative;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 12.5%;
+}
+
+.link-container{
+    width: 5%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+.link-container img{
+    padding-top: 10%;
+    height: 40%;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
 .header > h1{
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     margin-top:0;
+        
     margin-right: 5%;
 }
 .header > h2{
@@ -31,14 +57,14 @@ body {
     margin-right: 5%;
 }
 
-.icon-container{
+.logo-container{
     float: left;
     
     padding-left: 5%;
     
 }
 
-.icon {
+.header .logo {
     margin: 0;
     position: absolute;               /* 2 */
     top: 50%;                         /* 3 */
@@ -48,14 +74,14 @@ body {
 
 
 .blurb {
-    margin-top: 250px;
-    max-width: 600px;
+    margin-top: 200px;
+    max-width: 550px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     font-size: 1.5em;
-    color: #30162B;
-    
+    color: white;
+    text-shadow:black 2px 2px;
     margin-bottom: 50px
 
 }
@@ -65,22 +91,33 @@ body {
     
     position: relative;
     max-width: 1000px;
-    background-color: #F5F2C4;
-    border: 4px solid #30162B;
+    background-color: #69ABCF;
+    border: 4px solid black;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 15px;
     overflow: hidden;
 
-    font-size: 1.4em;
-    color: #30162B;
-    text-shadow: #BCCF9F 2px 2px;
+    font-size: 2em;
+    
+    color: black;
+    /* text-shadow: #BCCF9F 2px 2px; */
+}
+
+.card *{
+    margin-top:2%;
+    margin-bottom: 0px;
+}
+
+.card p{
+    max-width:60%;
+    padding-bottom: 30px;
 }
 
 .card .imageContainer {
     display: block;
     max-width: 35%;
     max-height: 35%;
-    padding-top: 7px;
     
 }
 
@@ -89,16 +126,48 @@ body {
     max-height: auto;
 }
 
+.card .screenshot:hover {
+    cursor: pointer;
+  }
+
+.card .icon{
+    position: absolute;
+    bottom: 0px;
+    display: inline-block;
+    width: 6.5%;
+    height: auto;
+
+    /* padding-bottom: 20px */
+    
+    /* margin-right: 60px; */
+}
+/* 
+.spacer {
+    height: 35px;
+} */
 .links {
     position: absolute;
     bottom: 10px;
+    width: 75%;
+      
+    /* font-size: 3vw;  */
+
 }
 .links a {
-    margin-left: 35px;
+    position: relative;
+    bottom: 0px;
+    padding-left: 7.5%; 
+    padding-right:10px;
+
 }
 
+.align-left  p{ float: left;
+}
+
+.align-right  p{ float: right}
+
 .align-left .links {
-    left: 35px
+    left: 2px
 }
 
 .align-left .imageContainer{
@@ -112,7 +181,7 @@ body {
 }
 
 .align-right .links {
-    right: 35px
+    right: 2px
 }
 
 .align-right .imageContainer{
@@ -127,24 +196,39 @@ body {
 
 
 @media only screen and (max-width : 550px) {
-    .icon-container{
+    .logo-container{
         display: none;
     }
 
     .blurb {
         margin-top: 200px;
     }
+
+    .card {font-size: 24px;}
+    .links {width: 100%}
+    /* .links a {font-size: 24px} */
+
     
+    .link-container{
+        right: 5.5%;
+    }
 }
 
 @media only screen and (min-width : 1500px) {
     .blurb {
         margin-top: 300px;
     }
+
+    .card {font-size: 2.5em;}
+    
+    .link-container{
+        right: 10%;
+    }
 }
 
-@media only screen and (min-width : 2000px) {
+/* @media only screen and (min-width : 2000px) {
     .blurb {
         margin-top: 375px;
     }
-}
+    .card {font-size: 3em;}
+} */
