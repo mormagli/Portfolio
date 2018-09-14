@@ -22,8 +22,8 @@ export default function Header(props){
                         <img src={github} alt="https://github.com/mormagli">
                         </img>
                     </a>
-                    <a href="https://linkedin.com/mormagli" target="_blank">
-                        <img src={linkedin} alt="https://github.com/mormagli">
+                    <a href="https://linkedin.com/in/giovanni-ricci" target="_blank">
+                        <img src={linkedin} alt="https://linkedin.com/in/giovanni-ricci">
                         </img>
                     </a>
                 </div>
