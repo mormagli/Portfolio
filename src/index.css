@@ -153,6 +153,11 @@ h1, h2 {
     /* font-size: 3vw;  */
 
 }
+
+.title {
+    font-size: 90%;
+}
+
 .links a {
     position: relative;
     bottom: 0px;
