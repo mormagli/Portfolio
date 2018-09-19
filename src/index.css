@@ -106,19 +106,24 @@ h1, h2 {
 
 .card *{
     padding: 1%;
-    margin-top:2%;
+    /* margin-top:2%; */
     margin-bottom: 0px;
+}
+
+.card h2 {
+    padding-top:15px;
 }
 
 .card p{
     max-width:60%;
     padding-bottom: 45px;
+    margin-block-start: 0%;
 }
 
 .card .imageContainer {
     display: block;
     max-width: 35%;
-    max-height: 35%;
+    
     
 }
 
@@ -182,7 +187,6 @@ h1, h2 {
 
 .align-left .imageContainer{
     float: right;
-    padding-right: 2px;
 }
 
 .align-left {
@@ -196,7 +200,6 @@ h1, h2 {
 
 .align-right .imageContainer{
     float: left;
-    padding-left: 2px;
 }
 
 .align-right {
@@ -221,6 +224,10 @@ h1, h2 {
     
     .link-container{
         right: 5.5%;
+    }
+
+    .imageContainer{
+        padding-bottom: 35px;
     }
 }
 

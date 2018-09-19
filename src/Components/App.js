@@ -27,7 +27,7 @@ class App extends Component {
     
         <Card
           title='Where am I?'
-          description = {<div>I made a spaced repetition for aspirational travelers with <a href='https://github.com/LeReiver'>Michael Le-Reiver</a>. I wrote our spaced repetition algorithm, for which I implimented a linked list in mongoose.</div>}
+          description = {<div>I made a spaced repetition app for aspirational travelers with <a href='https://github.com/LeReiver'>Michael Le-Reiver</a>. I wrote our spaced repetition algorithm, for which I implimented a linked list in mongoose.</div>}
           imageSource={scr2}
           github='https://github.com/thinkful-ei21/Mike-Giovanni-Spaced-Repetition-Client'
           deploy='https://whereami.surge.sh/'
