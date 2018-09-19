@@ -105,13 +105,14 @@ h1, h2 {
 }
 
 .card *{
+    padding: 1%;
     margin-top:2%;
     margin-bottom: 0px;
 }
 
 .card p{
     max-width:60%;
-    padding-bottom: 30px;
+    padding-bottom: 45px;
 }
 
 .card .imageContainer {
@@ -132,10 +133,13 @@ h1, h2 {
 
 .card .icon{
     position: absolute;
-    bottom: 0px;
+    bottom: -1%;
     display: inline-block;
     width: 6.5%;
+    min-width: 30px;
     height: auto;
+    /* margin-right: 15px;
+    clear: right; */
 
     /* padding-bottom: 20px */
     
@@ -161,8 +165,9 @@ h1, h2 {
 .links a {
     position: relative;
     bottom: 0px;
-    padding-left: 7.5%; 
+    padding-left: 12%; 
     padding-right:10px;
+    clear: both;
 
 }
 
